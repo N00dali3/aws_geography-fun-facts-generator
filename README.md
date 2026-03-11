@@ -17,15 +17,15 @@ to create a simple serverless application.
 ## Architecture
 
 User
-↓
+→
 Frontend Website
- ↓
+ →
 API Gateway
- ↓
+→
 Lambda Function
- ↓
+→
 DynamoDB
- ↓
+→
 Response returned to user
 
 ---
