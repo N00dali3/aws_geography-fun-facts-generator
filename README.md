@@ -1,11 +1,11 @@
-# Cloud Fun Facts Generator (AWS Serverless Project)
+# Geography Fun Facts Generator (AWS Serverless Project)
 
 ## Project Overview
 
-The Cloud Fun Facts Generator is a serverless application that returns
-random facts about cloud computing.
+The Geography Fun Facts Generator is a serverless application that returns
+random geography facts.
 
-Users click a button on a web page and receive a fun fact about the cloud.
+Users click a button on a web page and receive a fun geography fact.
 Behind the scenes, an API triggers a Lambda function that retrieves a fact
 from DynamoDB and returns it to the frontend.
 
@@ -81,9 +81,9 @@ import json
 
 def lambda_handler(event, context):
     facts = [
-        "AWS S3 was launched in 2006 and still rules cloud storage.",
-        "Cloud computing can save companies up to 30% on IT costs.",
-        "EC2 was one of the first AWS services to change IT forever.",
+        "The world's largest desert is actually Antarctica, covering 5.5 million square miles, not the Sahara.",
+        "Volcano Island in the Philippines holds a lake, which has an island in it, which has a smaller lake, which contains an even smaller island called Vulcan Point.",
+        "Russia has more surface area than Pluto.",
     ]
     
     fact = random.choice(facts)
