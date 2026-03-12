@@ -32,12 +32,12 @@ Response returned to user
 
 ## AWS Services Used
 
-- AWS Lambda
-- Amazon API Gateway
-- Amazon DynamoDB
-- AWS IAM
-- AWS Amplify (for hosting frontend)
-- Amazon CloudWatch (logs)
+- Lambda
+- API Gateway
+- DynamoDB
+- IAM
+- Amplify (for hosting frontend)
+- CloudWatch (logs)
 
 ---
 
